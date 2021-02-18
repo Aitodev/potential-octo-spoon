@@ -9,7 +9,7 @@
 5. Main Banner/style-one/style-two/style-three/style-four/style-five
 6. Intro Section
 7. Welcome Section
-9. Cta Section
+9. Cta Sectio
 8. Research Fields
 10. Testimonial Section
 11. Researches Section
@@ -9477,8 +9477,13 @@ h4 a{
 
 /**      price block      **/
 
+.price__block .wrapper{
+    width: 900px;
+    margin: 5% auto;
+}
+
 .single-price{
-    width: 33%;
+    width: 25%;
     background: #262626;
     float: left;
     margin-top: 2%;
@@ -9487,8 +9492,8 @@ h4 a{
     transition: 0.9s;
 }
 .single-price .price{
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 2px solid #da4357;
     margin: 5% auto 0 auto;
@@ -9509,11 +9514,38 @@ h4 a{
 .single-price .price h2{
     font-weight: bold;
     font-size: 38px;
-    margin-top: 35px;
+    margin-top: 48px;
     color: #fff;
 }
 .deals h4{
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 1; 
+    margin-bottom: 12px;
+}
+
+.deals h1{
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 1; 
+    margin-bottom: 8px;
+}
+
+.deals h3{
     font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 1; 
+}
+
+
+.deals h6{
+    font-size: 12px;
     font-weight: normal;
     text-align: center;
     color: #fff;
